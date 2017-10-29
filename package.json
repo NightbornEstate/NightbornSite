@@ -1,0 +1,24 @@
+{
+  "name": "nightbornsite",
+  "version": "1.0.0",
+  "description": "Site for Nightborn.estate",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codingJWilliams/NightbornSite.git"
+  },
+  "author": "Jay Williams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codingJWilliams/NightbornSite/issues"
+  },
+  "homepage": "https://github.com/codingJWilliams/NightbornSite#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}
