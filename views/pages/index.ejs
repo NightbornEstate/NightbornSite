@@ -9,13 +9,24 @@
         Nightborn Estate
       </h1>
       <h1 style="font-family: 'Quicksand', sans-serif; font-size: 26px; color: #99AAB5;">
-        <span class="">
-            We are sleepless, we are restless, we are doers and we are goers; we are NightBorn.<br>
-        </span>
+          <span class="">
+
+              We are sleepless, we are restless, we are doers and we are goers; we are NightBorn.<br>
+          </span>
+          <br>
+          <a id="cc" href="https://discord.gg/p5mm5Bj" style="color:#99AABF;">
+
+          </span>
       </h1>
       <br>
     </div>
 </center>
-
+<script>
+    $.get("https://canary.discordapp.com/api/guilds/300155035558346752/widget.json", function(data) {
+      console.log(data)
+      var d = data;
+      $("#cc").text(d.members.length + " online. Click here to join now.")
+    })
+  </script>
 
 <%- include("../partials/footer.ejs") %>
